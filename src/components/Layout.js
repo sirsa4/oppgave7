@@ -1,9 +1,10 @@
 import {Outlet} from 'react-router-dom'
+import { Main } from '../styled/Main';
 const Layout = () => {
     return ( 
-        <main>
-            <Outlet />
-        </main>
+        <Main>
+            <Outlet/>
+        </Main>
      );
 }
  

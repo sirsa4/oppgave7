@@ -1,12 +1,13 @@
 import Main from "./components/Main";
+import Grid from "./styled/Grid";
 
 
 function App() {
  
   return (
-    <div className="App">
-      <Main/>
-    </div>
+    <Grid>
+         <Main/>
+    </Grid>
   );
 }
 
