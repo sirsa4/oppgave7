@@ -1,13 +1,18 @@
-import {NavLink} from 'react-router-dom'
+import { NavLink } from "react-router-dom";
+import StyledNav from "../styled/StyledNav";
 
 const Navigation = () => {
-    return ( 
-        <>
-        <nav>
-            <ul><li><NavLink to='/'>Movies</NavLink></li></ul>
-        </nav>
-        </>
-     );
-}
- 
+  return (
+    <>
+      <StyledNav>
+        <ul>
+          <li>
+            <NavLink to="/">Movies</NavLink>
+          </li>
+        </ul>
+      </StyledNav>
+    </>
+  );
+};
+
 export default Navigation;

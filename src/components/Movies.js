@@ -21,7 +21,7 @@ const Movies = ({movies, search, setSearch}) => {
             const {imdbID: id,Title, Year, Poster} = film;
             /* console.log(typeof id); */
             return <article key={id}>
-                <img src={Poster} alt={Title} />
+                 <Link to={id}><img src={Poster} alt={Title} /></Link>
                 <h2>{Title}</h2>
                 <p>{Year}</p>
                 <div>

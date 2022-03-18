@@ -1,10 +1,13 @@
+import StyledFooter from "../styled/StyledFooter";
 
 const Footer = () => {
-    return ( 
-        <>
+  return (
+    <>
+      <StyledFooter>
         <p>UIN - oppgave 7 - Yahye Abdi</p>
-        </>
-     );
-}
- 
+      </StyledFooter>
+    </>
+  );
+};
+
 export default Footer;
